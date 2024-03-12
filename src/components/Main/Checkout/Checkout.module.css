@@ -1,0 +1,59 @@
+
+ .step{
+  display: flex;
+  position: relative
+ }
+
+ .circleContainer {
+   height: 24px;
+   width: 24px;
+   /* background-color:#616263; */
+   border: 1.5px solid #b0aeae;
+   border-radius: 50%;
+   color: #b0aeae;
+   margin: 0 0;
+   text-align: center;
+ }
+
+.circleChecked {
+  &::after {
+    content: "\2714";
+    position: absolute;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    top: 0;
+    font-size: 12px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+  }
+}
+
+.progressBar {
+  height: 1.5px;
+  width: 50px;
+  margin-top: 12px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #b0aeae;
+}
+
+.progressBarActive {
+  height: 1.5px;
+  width: 50px;
+  margin-top:12px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #1e1e1e;
+}
+
+
+
+
+
+@media (max-width: 640px) {
+  #item{
+    display: none;
+  }
+} 

@@ -1,0 +1,20 @@
+.inputStyle {
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.selectDelivery{
+  border: 1px solid #484747;
+  border-radius: 5px;
+}
+
+
+.select:hover {
+  background-color: rgb(248, 247, 244);
+  opacity: 1;
+  border-radius: 5px;
+}
