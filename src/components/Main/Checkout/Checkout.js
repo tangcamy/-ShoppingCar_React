@@ -41,8 +41,8 @@ function Checkout(){
       </div>
 
       <div id="selectForm" class="mt-5 row-start-3">
-        {/* <div id="FormOne" > <Step1 /></div> */}
-        <div id="FormTwo" > <Step2 /></div>
+        <div id="FormOne" > <Step1 /></div>
+        {/* <div id="FormTwo" > <Step2 /></div> */}
         {/* <div id="FormThree" > <Step3 /></div> */}
       </div>
 

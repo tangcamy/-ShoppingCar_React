@@ -3,9 +3,9 @@ import styles from "./Step1.module.css"
 function Step1(){
   return(
     <form id="address" class="mt-5">
-      <h3 class="font-bold">寄送地址</h3>
+      <h3 class="font-bold ml-10">寄送地址</h3>
       <div id="addressBody" class="mt-5 ">
-        <div id="input1" class="mt-5 grid grid-cols-1 gap-x-4 gap-y-2 sm:grid-cols-6">
+        <div id="input1" class="ml-10 mt-5 grid grid-cols-1 gap-x-4 gap-y-2 sm:grid-cols-6">
           <div class="sm:col-span-2 sm:col-start-1">
             <label class="block text-sm font-medium leading-6 text-gray-900">職稱</label>   
               <select class="block w-full rounded-md border-0 py-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 p-3">  
@@ -21,7 +21,7 @@ function Step1(){
         </div>
 
 
-        <div id="input2" class="mt-5 grid grid-cols-1 gap-x-4 gap-y-2 sm:grid-cols-4">
+        <div id="input2" class="ml-10 mt-5 grid grid-cols-1 gap-x-4 gap-y-2 sm:grid-cols-4">
           <div class="sm:col-span-2">
             <label class="block text-sm font-medium leading-6 text-gray-900"> 電話</label>
             <div class="mt-2">
@@ -38,7 +38,7 @@ function Step1(){
         </div>
 
 
-        <div id="input3" class="mt-5 grid grid-cols-1 gap-x-4 gap-y-2 sm:grid-cols-6">
+        <div id="input3" class="ml-10 mt-5 grid grid-cols-1 gap-x-4 gap-y-2 sm:grid-cols-6">
           <div class="sm:col-span-2 sm:col-start-1">
             <label class="block text-sm font-medium leading-6 text-gray-900">縣市</label>   
               <select class="block w-full rounded-md border-0 py-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 p-3">  

@@ -19,7 +19,7 @@ function Header() {
       <div>
         <Logo />
       </div>
-      <div class="flex ">
+      <div class="flex">
         <button id="search"><Search class="mx-2"/></button>
         <button id="Cart"><Cart class="mx-2"/></button>
         <button id="Moon"><Moon class="mx-2"/></button>
