@@ -1,72 +1,39 @@
-# Getting Started with Create React App
+# Alpha-Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+這是一個用於練習 React 的專案，名為 Alpha-Shop。旨在實現一個具有三個操作階段的簡單購物網站。
 
-## Available Scripts
+## 操作流程
 
-In the project directory, you can run:
+1. 請先確保您的電腦已安裝 Node.js 和 npm。
+2. 開啟終端機 (Terminal)，進入您想要存放此專案的本地位置，然後執行以下指令來複製專案：
 
-### `npm start`
+```
+git clone https://github.com/tangcamy/-ShoppingCar_React.git
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. 進入存放此專案的資料夾，並在終端機中執行以下指令進行相依套件的安裝：
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+npm install
+```
 
-### `npm test`
+4. 安裝完成後，執行以下指令來啟動程式：
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm start
+```
 
-### `npm run build`
+如果成功執行，您將會看到以下訊息：
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+webpack compiled successfully
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. 在瀏覽器中輸入以下網址：http://localhost:3000。即可查看網頁
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
+## 專案結構
+(需再調整)
+components資料夾中有以下五個元件
+- `StepProgress`：標示「寄送地址」、「運送方式」和「付款資訊」三個操作階段的元件。
+- `form`：包含三個不同步驟的元件，用於輸入寄送地址、選擇運送方式和填寫付款資訊。
+- `ProgressControl`：包含「上一步」、「下一步」和「確認下單」的按鈕，用於控制操作進度。
