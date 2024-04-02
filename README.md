@@ -32,8 +32,27 @@ webpack compiled successfully
 5. 在瀏覽器中輸入以下網址：http://localhost:3000。即可查看網頁
 
 ## 專案結構
-(需再調整)
 components資料夾中有以下五個元件
+- Footer 底部頁
+  - Footer.js 
+- Header 頂部頁
+  - Header.js
+- Main
+  - Main.js 主切版頁面
+  - Car 購物車切版頁面
+    - Car.js
+    - data.js （Sample資料）
+  - Checkout 結帳切版頁面
+    - Checkout.js 結帳
+    - ProcessControl.js 流程控制頁面
+    - Step1.js 
+    - Step2.js
+    - Step3.js
+
+
+
+
+
 - `StepProgress`：標示「寄送地址」、「運送方式」和「付款資訊」三個操作階段的元件。
 - `form`：包含三個不同步驟的元件，用於輸入寄送地址、選擇運送方式和填寫付款資訊。
 - `ProgressControl`：包含「上一步」、「下一步」和「確認下單」的按鈕，用於控制操作進度。
