@@ -44,15 +44,14 @@ components資料夾中有以下五個元件
     - data.js （Sample資料）
   - Checkout 結帳切版頁面
     - Checkout.js 結帳
-    - ProcessControl.js 流程控制頁面
+    - ProcessControl.js 流程控制頁面：包含「上一步」、「下一步」和「確認下單」的按鈕，用於控制操作進度。
     - Step1.js 
     - Step2.js
     - Step3.js
 
 
 
-
-
+(如下面需調整)
 - `StepProgress`：標示「寄送地址」、「運送方式」和「付款資訊」三個操作階段的元件。
 - `form`：包含三個不同步驟的元件，用於輸入寄送地址、選擇運送方式和填寫付款資訊。
 - `ProgressControl`：包含「上一步」、「下一步」和「確認下單」的按鈕，用於控制操作進度。
